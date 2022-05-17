@@ -3,7 +3,7 @@
 <img src="https://github.com/Scott-TechStar/Fun-with-GPT-3/blob/main/openai/static/page.png" class="page" />
 This is a list generator app using OpenAI API. It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework.
 
-### Setup
+## Setup
 
 1. Make sure you have python installed.
 
