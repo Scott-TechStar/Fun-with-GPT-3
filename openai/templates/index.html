@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <title>TechStar Open AI</title>
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='dog.png') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body>
+  <img src="{{ url_for('static', filename='dog.png') }}" class="icon" />
+  <h3>TECHSTAR OPEN AI</h3>
+  <form action="/" method="post">
+    <input type="text" name="animal" placeholder="Enter Your Request Here!" required />
+    <input type="submit" value="Generate Answer" />
+  </form>
+  <br>
+  <div></div>
+  <div class="response">
+  {% if result %}
+  <h3>Response</h3>
+  <div  class="result">{{ result }}</div>
+  {% endif %}
+</div>
+  <footer><p>Copyright &copy; 2022 TechStar Ltd. Designed by: <a rel="nofollow noopener" href="https://Scott-TechStar.github.io" target="_blank">John Mwadime</a></p>
+  </footer>
+</body>
+</html>
