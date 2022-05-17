@@ -1,5 +1,6 @@
 # TECHSTAR OPEN AI APP
 
+<img src="{{ url_for('static', filename='page.png') }}" class="page" />
 This is a list generator app using OpenAI API. It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework.
 
 ## Setup
